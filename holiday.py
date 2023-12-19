@@ -10,12 +10,12 @@ def hotel_cost(num_nights):
 
 def plane_cost(city_flight):
     # Flight costs based on city
-    if city_flight == "Paris":
-        return 200
-    elif city_flight == "London":
-        return 250
-    elif city_flight == "New York":
+    if city_flight == "Bucharest":
         return 300
+    elif city_flight == "Sofia":
+        return 250
+    elif city_flight == "Budapest":
+        return 200
     else:
         return 150  # Default cost for other cities
 
