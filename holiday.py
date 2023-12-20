@@ -30,7 +30,8 @@ def holiday_cost(num_nights, city_flight, rental_days):
 # Calculate total cost
 total_cost = holiday_cost(num_nights, city_flight, rental_days)
 
-# Print holiday details
+# Print holiday details 
+# Note: \n is a special character that starts a new line
 print("\nHoliday Details:")
 print(f"City: {city_flight}")
 print(f"Total Hotel Cost: ${hotel_cost(num_nights)}")
